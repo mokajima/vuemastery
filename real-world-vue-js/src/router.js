@@ -4,7 +4,7 @@ import EventCreate from './views/EventCreate.vue'
 import EventList from './views/EventList.vue'
 import EventShow from './views/EventShow.vue'
 
-Vue.use(Router);
+Vue.use(Router)
 
 export default new Router({
   routes: [
@@ -24,4 +24,4 @@ export default new Router({
       component: EventCreate
     }
   ]
-});
+})
