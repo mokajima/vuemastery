@@ -29,7 +29,6 @@ requireComponent.keys().forEach(fileName => {
     )
   )
 
-
   // Register component globally
   console.log(componentConfig)
   Vue.component(
@@ -40,7 +39,6 @@ requireComponent.keys().forEach(fileName => {
     componentConfig.default || componentConfig
   )
 })
-
 
 Vue.config.productionTip = false
 
