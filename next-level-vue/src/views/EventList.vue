@@ -20,13 +20,10 @@ import store from '@/store/store'
 function getPageEvents(routeTo, next) {
   const currentPage = parseInt(routeTo.query.page) || 1
 
-  store
-    .dispatch('event/fetchEvents', {
-      page: currentPage
-    }).then(() => {
-      routeTo.params.page = currentPage
-      next()
-    })
+  store.dispatch('event/fetchEvents', { page: currentPage }).then(() => {
+    routeTo.params.page = currentPage
+    next()
+  })
 }
 
 export default {
