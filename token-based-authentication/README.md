@@ -1,4 +1,4 @@
-# authentication_course
+# token-based-authentication
 
 ## Project setup
 
