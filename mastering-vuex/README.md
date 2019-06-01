@@ -1,4 +1,4 @@
-# real-world-vue-js
+# mastering-vuex
 
 ## Project setup
 ```
