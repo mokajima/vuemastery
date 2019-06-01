@@ -30,7 +30,6 @@ requireComponent.keys().forEach(fileName => {
   )
 
   // Register component globally
-  console.log(componentConfig)
   Vue.component(
     componentName,
     // Look for the component options on `.default`, which will
